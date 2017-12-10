@@ -1,0 +1,2 @@
+59 * * * * /home/wzbc/arch/kickstream.php 1>>/home/wzbc/arch/error.log 2>&1
+02 * * * * (cd /home/wzbc/arch; ./liststream.php 1>>/home/wzbc/arch/error.log 2>&1)

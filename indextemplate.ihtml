@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="ISO-8859-1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>WZBC Audio Archive</title>
+    <meta name="description"
+            content="Audio archive of the last two weeks of programming on WZBC Newton 90.1 Boston College Radio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Copyright 2008 Tom Worster. ISC license. See readme.txt -->
+
+    <style type="text/css" media="all">
+        html, body, div, span, object, iframe, h1, h2, h3, h4, h5,
+        h6, p, blockquote, pre, a, abbr, acronym, address, cite, code,
+        del, dfn, em, img, ins, kbd, q, samp, strong, sub, sup, tt, var,
+        dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+        caption, tbody, tfoot, thead, tr, th, td {
+            margin: 0;
+            padding: 0;
+            outline: 0;
+            font-size: 1em;
+        }
+
+        body {
+            font-size: 76%;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+            line-height: 1.28em;
+            color: black;
+            background: white;
+            padding: 2em;
+        }
+
+        h1 {
+            font-size: 150%;
+        }
+
+        #archivelinks {
+            border-collapse: collapse;
+            margin-bottom: 2em;
+        }
+
+        #archivelinks td {
+            vertical-align: top;
+            border-top: 1px solid #999;
+            padding: 0.2em 1em 0.2em 0;
+        }
+
+        #archivelinks td.space {
+            height: 2em;
+        }
+
+        #archivelinks td.date {
+            font-size: 125%;
+            margin-top: 1em;
+            padding: 0.5em 1em 1em 0;
+        }
+
+        #archivelinks td.ntb {
+            border-top: none;
+        }
+
+        #archivelinks td.c1 {
+            width: 2em;
+        }
+
+        #archivelinks td.c2 {
+            text-align: right;
+            padding-right: 0.5em;
+        }
+
+        a {
+            color: #400;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #900;
+            text-decoration: underline;
+        }
+
+        p.help {
+            font-size: 85%;
+            color: #777;
+            margin-top: 0.75em;
+            width: 60em;
+        }
+
+        p.helplink {
+            margin: 1em 0 3em;
+        }
+    </style>
+</head>
+<body>
+<h1>WZBC Audio Archive</h1>
+<p class="helplink"><a href="#help">HELP</a></p>
+{pagecontent}
+<p><a name="help">HELP</a></p>
+<p class="help">The "listen" links are so-called 'M3U playlist' files (small text files containing
+    info about the audio) that programs like
+    iTunes, QuickTime Player, WinAmp and Window Media Player can open. If your computer
+    doesn't play the archive automatically when you click the link you may be able to download
+    the file (if it didn't already) and open it in one of those player programs.</p>
+<p class="help">Happily, it's normally possible to configure
+    your computer so that the links play automatically. But, sadly, I don't have any advice on
+    how to do it.</p>
+</body>
+</html>
